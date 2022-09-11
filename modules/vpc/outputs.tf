@@ -10,27 +10,27 @@ output "vpc_id" {
   value = aws_vpc.vpc.id
 }
 
-output "public_subnet_1_az1" {
+output "public_subnet_1_az1_id" {
   value = aws_subnet.public_subnet_1_az1.id
 }
 
-output "public_subnet_2_az2" {
+output "public_subnet_2_az2_id" {
   value = aws_subnet.public_subnet_2_az2.id
 }
 
-output "public_subnet_3_az2" {
+output "public_subnet_3_az2_id" {
   value = aws_subnet.public_subnet_3_az2.id
 }
 
-output "private_subnet_1_az2" {
+output "private_subnet_1_az1_id" {
   value = aws_subnet.private_subnet_1_az1.id
 }
 
-output "private_subnet_2_az2" {
+output "private_subnet_2_az2_id" {
   value = aws_subnet.private_subnet_2_az2.id
 }
 
-output "private_subnet_3_az2" {
+output "private_subnet_3_az2_id" {
   value = aws_subnet.private_subnet_3_az2.id
 }
 
