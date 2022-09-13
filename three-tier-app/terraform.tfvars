@@ -1,5 +1,5 @@
 region                    = "us-east-1"
-project_name              = "tree-tier-app"
+project_name              = "three-tier-app"
 vpc_cidr                  = "10.0.0.0/16"
 public_subnet_1_az1_cidr  = "10.0.0.0/24"
 public_subnet_2_az2_cidr  = "10.0.1.0/24"
